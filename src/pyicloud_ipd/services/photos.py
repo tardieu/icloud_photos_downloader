@@ -180,6 +180,11 @@ class PhotoLibrary:
         "query_filter": None,
     }
     SMART_FOLDERS = {
+        "All photos": {
+            "obj_type": "CPLAssetByAssetDate",
+            "list_type": "CPLAssetAndMasterByAssetDate",
+            "query_filter": None,
+        },
         "Time-lapse": {
             "obj_type": "CPLAssetInSmartAlbumByAssetDate:Timelapse",
             "list_type": "CPLAssetAndMasterInSmartAlbumByAssetDate",
