@@ -14,6 +14,7 @@ class AssetVersionSize(Enum):
 
 class LivePhotoVersionSize(Enum):
     ORIGINAL = "original"
+    ADJUSTED = "adjusted"
     MEDIUM = "medium"
     THUMB = "small"
 

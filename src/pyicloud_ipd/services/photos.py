@@ -762,12 +762,14 @@ class PhotoAsset:
         LivePhotoVersionSize.ORIGINAL: "resOriginalVidCompl",
         LivePhotoVersionSize.MEDIUM: "resVidMed",
         LivePhotoVersionSize.THUMB: "resVidSmall",
+        LivePhotoVersionSize.ADJUSTED: "resVidFull",
     }
 
     VIDEO_VERSION_LOOKUP: Dict[VersionSize, str] = {
         AssetVersionSize.ORIGINAL: "resOriginal",
         AssetVersionSize.MEDIUM: "resVidMed",
         AssetVersionSize.THUMB: "resVidSmall",
+        AssetVersionSize.ADJUSTED: "resVidFull",
     }
 
     @property
